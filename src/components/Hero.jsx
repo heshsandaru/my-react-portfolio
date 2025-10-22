@@ -1,24 +1,37 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white text-center"
+      className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 text-white relative overflow-hidden"
     >
-      <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-bounce">
-        Hi, I'm Heshan 👋
-      </h1>
-      <p className="text-lg md:text-2xl mb-6 max-w-2xl">
-        A passionate Full-Stack Developer who loves building clean, modern web
-        applications using React, Vite, and Tailwind CSS.
-      </p>
-      <a
-        href="#projects"
-        className="px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
-      >
-        View My Work
-      </a>
+      <div className="backdrop-blur-md bg-white/10 rounded-3xl p-10 shadow-2xl">
+        <h1 className="text-5xl font-bold mb-4">Hi, I’m Heshan 👋</h1>
+        <TypeAnimation
+          sequence={[
+            "Full-Stack Developer 💻",
+            2000,
+            "React & Spring Boot Expert ⚙️",
+            2000,
+            "UI/UX Designer 🎨",
+            2000,
+          ]}
+          wrapper="span"
+          speed={50}
+          repeat={Infinity}
+          className="text-2xl font-semibold"
+        />
+        <div className="mt-8">
+          <a
+            href="#projects"
+            className="px-6 py-3 bg-white text-indigo-600 font-medium rounded-xl shadow hover:bg-gray-100 transition"
+          >
+            View My Work
+          </a>
+        </div>
+      </div>
     </section>
   );
 }
