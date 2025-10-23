@@ -33,7 +33,7 @@ It showcases my skills, projects, and contact information — designed with eleg
 
 ## 📸 Preview
 ![alt text](<Screenshot 2025-10-23 103447.png>)
-![alt text](<Screenshot 2025-10-23 104130.png>) ![alt text](<Screenshot 2025-10-23 103952.png>) ![alt text](<Screenshot 2025-10-23 104015.png>) ![alt text](<Screenshot 2025-10-23 104030.png>) ![alt text](<Screenshot 2025-10-23 104103.png>) ![alt text](<Screenshot 2025-10-23 104118.png>)
+![alt text](<Screenshot 2025-10-23 104130.png>) ![alt text](<Screenshot 2025-10-23 103952.png>) ![alt text](<Screenshot 2025-10-23 104015.png>) ![alt text](<Screenshot 2025-10-23 104030.png>) ![alt text](<Screenshot 2025-10-23 104103.png>) ![alt text](<Screenshot 2025-10-23 104118.png>)![alt text](<Screenshot 2025-10-23 104130.png>)
 
 ---
 
