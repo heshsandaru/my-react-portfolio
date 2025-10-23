@@ -14,7 +14,7 @@ export default function ProjectModal({ project, onClose }) {
         <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
         <p className="text-gray-600 dark:text-gray-300 mb-4">{project.desc}</p>
         <a
-          href="#"
+          href="https://github.com/heshsandaru?tab=repositories"
           className="inline-block px-5 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
         >
           View Code

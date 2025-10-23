@@ -1,15 +1,21 @@
 import React, { useState } from "react";
-import project1 from "./../assets/react.svg";
-import project2 from "./../assets/react.svg";
-import project3 from "./../assets/react.svg";
+import project1 from "./../assets/d00cd9ec-c858-4976-bd15-1917b3ef2118_thumbnail.jpg";
+import project2 from "./../assets/1_o5FmjKTPdJTbhGE2MIjo6w.jpg";
+import project3 from "./../assets/cover.webp";
+import project4 from "./../assets/Cover_2-1-scaled.jpg"
+import project5 from "./../assets/how-does-a-restaurant-pos-system-work.jpg"
+import project6 from "./../assets/1683530176805.png"
 import ProjectModal from "./ProjectModal";
 
 export default function Projects() {
   const [selected, setSelected] = useState(null);
   const projects = [
     { id: 1, title: "Portfolio Website", img: project1, desc: "Modern personal portfolio with React + TailwindCSS" },
-    { id: 2, title: "E-commerce Store", img: project2, desc: "React + Node.js full-stack e-commerce solution" },
-    { id: 3, title: "Smart Parking System", img: project3, desc: "IoT + Spring Boot based parking management system" },
+    { id: 2, title: "Bus Ticket booking System", img: project2, desc: "Second-Semester-Final-Project-AAD , Spring boot." },
+    { id: 3, title: "Note App", img: project3, desc: "Note App using the react native and Expo" },
+    { id: 4, title: "AAD System", img: project4, desc: "Web Application AAD Using the spring Boot" },
+    { id: 5, title: "POS System", img: project5, desc: "Using HTML,CSS,Javascript" },
+    { id: 6, title: "Microservices", img: project6, desc: "Software-Architectures-and-Design-Patterns-II" },
   ];
 
   return (

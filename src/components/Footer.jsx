@@ -13,8 +13,8 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="relative bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950 border-t border-gray-300 dark:border-gray-700">
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+    <footer className="relative bg-linear-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950 border-t border-gray-300 dark:border-gray-700">
+      <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
 
       <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-10 text-gray-800 dark:text-gray-300">
         {/* Left Section */}
